@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#First{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 13rem 0;
+    background-attachment: fixed;
+}
+
+#First h1{
+    font-size: 88px;
+    color: #212529;
+}
+
+#First h3{
+    font-size: 28px;
+    color: #212529;
+    margin-bottom: 50px;
+}
+
+#First a{
+    background-color: #1d809f;
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#First a:hover{
+    background-color: #07546b;
+}
+
+#Second{
+    text-align: center;
+    padding: 6rem 0;
+}
+
+#Second h2{
+    font-size: 2rem;
+    color: #212529;
+}
+
+#Second p{
+    font-size: 20px;
+    color: #212529;
+    margin: 10px 0 60px;
+}
+
+#Second .offer-btn{
+    background-color: #212529;
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#Second p a{
+    text-decoration: underline;
+    color: #1d809f;
+}
+
+#Third{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 13rem 0;
+    background-attachment: fixed;
+}
+
+#Third h2{
+    font-size: 3.5rem;
+    color: #212529;
+    margin-bottom: 60px;
+}
+
+#Third a{
+    background-color: #1d809f;
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+    user-select: none;
+}
+
+#Fourth{
+    padding: 6rem 0;
+    text-align: center;
+    background-color: #1d809f;
+}
+
+#Fourth h2{
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#Fourth a{
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+    user-select: none;
+    padding: 20px 40px;
+}
+
+#Fourth .click{
+    background-color: #fff;
+    color: #212529;
+}
+
+#Fourth .look{
+    background-color: #212529;
+    color: #fff;
+    margin-left: 20px;
+}

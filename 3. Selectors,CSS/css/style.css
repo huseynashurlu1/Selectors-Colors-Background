@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::selection{
+    background-color: blueviolet;
+    color: #fff;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+  }
+
+
+/* h1{
+    background-color: red;
+    color: aqua;
+    font-style: italic;
+    text-align: center;
+}
+.register-btn{
+    padding: 12px 50px;
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-btn{
+    padding: 12px 50px;
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+}
+
+#link{
+    text-decoration: none;
+}
+
+p{
+    letter-spacing: 5px;
+} */
+
+/* class / id */
+
+/* 
+#first{
+    background-color: aqua;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#first.register{
+    background-color: red;
+}
+
+button.login{
+    
+}
+
+#second{
+    background-color: burlywood;
+    text-align: center;
+    padding: 30px 0;
+    margin: 50px auto 0 auto;
+    width: 40%;
+}
+
+ul > li{
+    font-weight: bold;
+}
+
+h3{
+    color: red;
+}
+
+p,span{
+    font-weight: bold;
+}
+ */
+/* 
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 5px solid #000;
+}
+
+/* nth-child */
+/* .box:nth-child(odd) {
+    background-color: blue;
+    width: 250px;
+}
+
+.text{
+    font-size: 20px;
+}
+.text span {
+    font-size: 50px;
+    color: red;
+}  */
+
+/* .text{
+    text-align: center;
+    background-color: red;
+    color: #fff;
+}
+
+.text:hover{
+    background-color: blueviolet;
+    transition: 1s;
+}
+
+button{
+    padding: 14px 60px;
+    background-color: blueviolet;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid blueviolet;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: rgb(60, 7, 109);
+    border-radius: 7px;
+    padding: 14px 80px;
+}
+
+input{
+    width: 200px;
+    height: 50px;
+}
+
+input:focus {
+    outline: none;
+}
+
+img{
+    cursor: pointer;
+    transition: 1s;
+    filter: grayscale(1);
+}
+
+img:hover{
+    filter: grayscale(0);
+} */
+
+/* before / after */
+
+h3::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+#Code{
+    background-image: url(https://2022.code.edu.az/wp-content/uploads/2021/09/code-academy-bg.jpeg);
+    padding: 17rem 0;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#Students{
+    background-image: url(https://code.edu.az/wp-content/uploads/2021/08/code-academy-yeni-campus-1.jpg);
+    padding: 17rem 0;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#Teachers{
+    background-image: url(https://code.edu.az/wp-content/uploads/2021/08/code-academy-dmi-emekdasliq-1.jpg);
+    padding: 17rem 0;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+
+#Code h1,#Students h1,#Teachers h1{
+    font-size: 70px;
+    color: #fff;
+}
